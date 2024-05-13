@@ -29,5 +29,5 @@ iter, upper_border = binary_search(arr, x)
 if x > arr[-1]:
   print(f"Amount of iterations: {iter}, upper border: {arr[-1]} ")
 else:
-  print(f"Amount of iterations: {iter}, upper border: {upper_border} ")
+  print(f"Amount of iterations: {iter}, max element: {upper_border} ")
 
